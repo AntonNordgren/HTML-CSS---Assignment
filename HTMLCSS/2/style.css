@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  width: 1024px;
+  margin: auto;
+  background-color: rgb(249, 249, 249);
+}
+
+p, h1, h2, h3, h4, h5, h6{
+  padding: 10px;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  background-color: #bb1919;
+  color: white;
+}
+
+.header a {
+  color: white;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.header h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.header nav{
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+#login{
+  position: absolute;
+  right: 0;
+}
+
+.header li{
+  width: 120px;
+}
+
+ul li{
+}
+
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  background-color: #ff00000a;
+  min-height: calc(100vh - 225px);
+  padding: 15px;
+}
+
+.articleContainer{
+  display: flex;
+}
+
+.articlesAndAsideContainer{
+  width: 75%;
+}
+
+article {
+  width: 100%;
+}
+aside {
+  width: 25%;
+}
+
+.imgContainer{
+  width: 100%;
+  padding: 5px;
+}
+
+.imgContainer img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  height: 150px;
+  background-color: #bb1919;
+  color: white;
+  align-items: center;
+}
+
+footer span {
+  margin: auto;
+}
+
+form {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formContainer {
+  position: relative;
+  margin: auto;
+}
+
+.buttonContainer {
+  display: flex;
+  margin-left: -5px;
+margin-top: 5px;
+}
+
+.buttonContainer input{
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  background-color:#bb1919;
+  color: white;
+  border: solid 1px #bb1919;
+  border-radius: 4px;
+
+}
+
+.buttonContainer input:hover{
+  cursor: pointer;
+}
+
+#formHeader {
+  padding-left: 0px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#secondPara{
+  font-weight: bold;
+  color: blue;
+}
+
+aside li { color: green; }
+aside li:nth-child(odd) { color: red; }
